@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './app/layout/styles.css';
-import App from './app/layout/App.jsx';
+import './styles.css';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const  rootEl = document.getElementById('root');
@@ -11,7 +11,7 @@ function render(){
 }
 
 if(module.hot){
-  module.hot.accept('./app/layout/App.jsx', function(){
+  module.hot.accept('./App.js', function(){
     setTimeout(render);
   })
 }
