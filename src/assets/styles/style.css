@@ -1652,10 +1652,9 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, tabl
 	width: auto;
 	border: 0;
 }
-.login-menu a{
+.login-menu{
 	font-size: 20px;
 	font-weight: 600;
-	color: #1b00ff;
 }
 .login-wrap{
 	height: calc(100% - 70px);

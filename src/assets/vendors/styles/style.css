@@ -508,7 +508,6 @@ p {
 .card-box,
 .da-card {
   background-color: #fff;
-  border-radius: 10px;
   -webkit-box-shadow: 0 0 28px rgba(0, 0, 0, 0.08);
   box-shadow: 0 0 28px rgba(0, 0, 0, 0.08);
 }

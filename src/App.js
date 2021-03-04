@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "./components/layout/navbar.jsx";
 import "../src/styles.css";
-import Sidebar from "./components/layout/sidebar.jsx";
 import Routes from "./routes.jsx";
 import { BrowserRouter } from "react-router-dom";
+import BoardDetailedHeader from "./components/boards/boardDetailed/BoardDetailedHeader.jsx";
 //import { BrowserRouter } from "react-router-dom";
 
 class App extends Component {

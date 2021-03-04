@@ -8,7 +8,9 @@ export const sampleData = [
         dateCreated: '2018-03-21',
         posts: '2',
         lastPostAdded: '1 Month Ago',
-        boardPhotoURL: 'https://randomuser.me/api/portraits/men/20.jpg',
+        boardPhotoURL: '../../assets/images/product-2.jpg',
+        boardPhotoURL1: '../../assets/images/product-img1.jpg',
+        boardPhotoURL2: '../../assets/images/product-img2.jpg',
     },
     {
         id: '2',
@@ -19,6 +21,8 @@ export const sampleData = [
         dateCreated: '2020-12-23',
         posts: '5',
         lastPostAdded: '2 Weeks Ago',
-        boardPhotoURL: 'https://randomuser.me/api/portraits/men/21.jpg',
+        boardPhotoURL: '../../assets/images/img5.jpg',
+        boardPhotoURL1: '../../assets/images/product-1.jpg',
+        boardPhotoURL2: '../../assets/images/photo4.jpg',
     }
 ];

@@ -3,15 +3,23 @@ import ReactDOM from 'react-dom';
 import './styles.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
+import { configureStore } from './redux/configureStore';
 
-const  rootEl = document.getElementById('root');
+const rootEl = document.getElementById('root');
 
-function render(){
-  ReactDOM.render(<App />, rootEl);
+const store = configureStore()
+
+function render() {
+  ReactDOM.render(
+    <Provider store={store}>
+      <App />
+    </Provider>
+    , rootEl);
 }
 
-if(module.hot){
-  module.hot.accept('./App.js', function(){
+if (module.hot) {
+  module.hot.accept('./App.js', function () {
     setTimeout(render);
   })
 }
